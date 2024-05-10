@@ -5,7 +5,7 @@ type Params = {
 }
 export const Test = async ({ req, res, next }: Params) => {
     try {
-        console.log(`Hello from the Middleware`);
+        console.log(`Hello from the Models`);
     } catch (error) {
         next(error);
     }
